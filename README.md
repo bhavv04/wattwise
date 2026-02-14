@@ -1,4 +1,4 @@
-# wattwise Ontario
+# Wattwise Ontario
 
 Machine learning-based electricity demand forecasting system for Ontario's power grid.
 
