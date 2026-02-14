@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (add raw data to git, but keep processed data local)
+data/processed/*
+data/predictions/*
+!data/processed/.gitkeep
+!data/predictions/.gitkeep
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (can be large)
+*.pkl
+*.joblib
+*.h5
+models/*.pkl
+
+# Logs
+*.log
